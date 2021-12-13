@@ -1,0 +1,235 @@
+#root {
+  width: 100%;
+}
+.aboutText {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  text-align: center;
+}
+.aboutPic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  margin-bottom: 50px;
+  border-radius: 50%;
+}
+.contact {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  list-style: none;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.contactIcon {
+  height: 5rem;
+}
+
+.me-auto {
+  font-size: 2rem;
+}
+.navbar {
+  color: black;
+}
+
+.row {
+  max-width: "100%";
+}
+.thumbnails {
+  margin-bottom: 25px;
+}
+.imgGallery {
+  width: 80rem;
+}
+.container {
+  max-width: "100%";
+}
+.heroBlock{
+  
+  border: white solid 1.5rem;
+  max-width: 70vw;
+margin-top: -40vh;
+margin-left: auto;
+margin-right: auto;
+  
+}
+.heroTop{
+  padding-top: 20vh;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: rgb(255, 179, 205);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero {
+ 
+  margin-bottom: 5rem;
+  padding-left: 20vw;
+  
+}
+.heroText{
+  margin-left: 10%;
+  margin-right: 10%;
+  border-bottom: solid black 5px;
+}
+.heroTextTwo{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.heroTitle {
+  font-size: 6.5vw;
+  max-width: 80vw;
+  color: hsl(328, 100%, 66%);
+  position: absolute;
+  top: 10vw;
+  left: 5vw;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+.cImage {
+  max-height: 100vh;
+}
+
+.designConts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.designImages {
+    margin-top: 20px;
+    max-height: 500px;
+    vertical-align: middle;
+    justify-content: center;
+  
+}
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
+}
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+.footerIcon {
+  height: 50px;
+}
+.customFont {
+  font-family: larabiefont, monospace;
+
+  font-weight: 700;
+
+  font-style: normal;
+}
+.customFontTwo {
+  font-family: larabiefont, monospace;
+
+  
+
+  font-style: normal;
+}
+.footer {
+  width: 100%;
+  background-color: rgb(255, 167, 251);
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 1rem;
+  position: fixed;
+  bottom: 0;
+}
+.contactItem {
+  text-align: center;
+  margin-top: 3rem;
+}
+.homeIntro{
+  height: 100vh;
+  background-color: cadetblue;
+}
+.introOne{
+background-color: darkmagenta;
+height: 100vh;
+}
+.introTwo{
+background-color: darkgray;
+height: 50vh;
+}
+.introThree{
+  background-color:coral;
+  height: 50vh;
+}
+.homeBio{
+  margin-bottom: 20rem;
+ margin-left: auto;
+ margin-right: auto;
+ 
+  
+
+}
+.recent{
+  text-align: left;
+ 
+  
+  border-bottom: black solid 5px;
+  font-size: 5vw;
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  /*border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 30%; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 50% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+.newShow{
+  margin-left: auto;
+  margin-right: auto;
+}
+.newShowImage{
+  max-width: 100%;
+ 
+  
+ 
+
+}
+.navbar-light .navbar-nav .nav-link{
+  max-width: 200px;
+  margin-left: auto;
+}
+.navbar-light .navbar-toggler{
+  border:none;
+}
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none;
+}
+.navbar-default {
+  box-shadow: none;
+  border: none;
+}
+.navbar-toggler:hover{
+  rotate: 90;
+}
